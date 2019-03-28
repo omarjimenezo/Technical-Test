@@ -1,0 +1,47 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <div>
+    <h3>
+      2. Write a function that computes the list of the first 100 Fibonacci numbers.
+    </h3>
+
+    <div *ngFor="let fibonacci of fibonacciArr; let i = index">
+      ({{i}}) {{fibonacci}}
+    </div>
+
+    <h3>
+      3. Write a function to print all permutations of a string. Max string length can be 50 characters.
+    </h3>
+
+    <div *ngFor="let permutation of permutationArr">
+      {{permutation}}
+    </div>
+
+    <h3>
+      5. Write a function that receives n (a number) as a parameter and prints all valid (properly opened and closed)
+      combinations of n-pairs of parentheses.
+    </h3>
+
+    <div *ngFor="let parentheses of parenthesesArr">
+      {{parentheses}}
+    </div>
+    
+    <h3>
+        4. Given a sorted array of strings which is interspersed with empty strings, write a function to find the location
+        of a given string.
+    </h3>
+
+    <div>
+      Position {{stringPosition}}
+    </div>
+    
+    <h3>
+        7. Write a function that takes a list of strings an prints them, one per line, in a rectangular frame.
+    </h3>
+
+    <div style="color: red">
+      (for styling reasons in the html, please see this result in the browser console)
+    </div>
+    
+  </div>
+
